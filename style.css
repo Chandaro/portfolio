@@ -265,6 +265,25 @@ section h2 {
     color: var(--text-color);
 }
 
+/* Social Icons for Hero Section */
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--secondary-color);
+}
+
+
 .form-group textarea {
     height: 150px;
     resize: vertical;
